@@ -105,6 +105,9 @@ progress::-moz-progress-bar {
 .header_area .container .header_menu .icon{
     width: 24px;
 }
+.header_area .container .header_menu .icon svg path{
+    stroke-width: 2px;
+}
 
 .header_area .container .header_menu .hambur_box{
     width: 72px;
@@ -1344,6 +1347,14 @@ progress::-moz-progress-bar {
 }
 
 @media (max-width : 600px) {
+
+    /* cursor */
+    *{
+        cursor: auto;
+    }
+    html,body{
+        cursor: auto;
+    }
     .header_area .container .header_menu .iconbox{
         display: none;
     }
